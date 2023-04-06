@@ -20,9 +20,9 @@ public class RemoveDups {
             }
             if(!found){
                 temp[index++] = arr[count];
-                found = false;
             }
             count++;
+            found = false;
         }
         String[] returnString = new String[index];
         System.arraycopy(temp,0,returnString,0,index);
